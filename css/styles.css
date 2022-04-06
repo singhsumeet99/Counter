@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+    background: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.container{
+padding-top: 150px;
+}
+
+/* Typography */
+h1{
+    font-size: 6rem;
+    color: rgb(1, 32, 79);
+    margin-bottom: 0;
+}
+#counter{
+    color: rgb(0,0,0,0.8);
+    font-size: 10rem;
+}
+
+
+/* Buttons */
+
+.btn{
+   background: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: rgb(0,0,0,0.9);
+    color: #fff;
+}
+@media screen and (min-width:768px) {
+    .container{
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 9rem;
+    }
+    #counter{
+        font-size: 12rem;
+    }
+    .btn{
+        padding:1rem 2rem;
+        margin: 1rem;
+    }
+}
